@@ -2,6 +2,15 @@ body {
    background-color: #fff;
 }
 
+html, body {
+   height: 100%;
+}
+
+.holder {
+   min-height: 100%;
+   position: relative;
+}
+
 .navbar-fixed-top {
    position: static;
 }
@@ -9,6 +18,15 @@ body {
 .navbar .nav > li:last-child > a {
    padding-right: 0;
    padding-left: 0;
+}
+
+a {
+   color: #c40F70;
+}
+
+a:hover {
+   text-decoration: none;
+   color: #555;
 }
 
 .sidebar ul {
@@ -33,12 +51,12 @@ body {
 .sidebar li a {
    font-family: 'Milonga', cursive;
    font-size: 18px;
-   color: #c40F70;
 }
 
-.sidebar li a:hover {
-   text-decoration: none;
-   color: #555;
+.index .events {
+   border: 1px solid #c40F70;
+   width: 248px;
+   float: right;
 }
 
 .index .events h2 {
@@ -48,4 +66,49 @@ body {
    color: #fff;
    text-align: center;
    font-weight: normal;
+   margin: 0;
+}
+
+.index .event {
+   border-bottom: 1px solid #cacaca;
+   margin-top: 10px;
+}
+
+.index .event a,
+.index .event p {
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.index .events p.view-all {
+   font-family: 'Milonga', cursive;
+   font-size: 16px;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.holder footer {
+    height: 204px; 
+    width:100%;
+    position: absolute;
+    bottom: 0; 
+}
+
+.holder footer .news {
+   background-color: #c40F70;
+   padding: 60px 30px 25px 10px;
+   position: absolute;
+   bottom: 0;
+   border-top-right-radius: 250px;
+   text-align: center;
+} 
+
+.holder footer .news a {
+   font-family: 'Milonga', cursive;
+   color: #fff;
+   font-size: 16px;
+}
+
+.holder footer .news a:hover {
+   text-decoration: underline;
 }

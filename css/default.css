@@ -44,7 +44,6 @@ a:hover {
    -webkit-box-shadow: -1px -1px 5px #a1a1a1;
    box-shadow: -1px -1px 5px #a1a1a1;
    padding: 5px 0;
-   width: 120px;
    text-align: center;
 }
 
@@ -55,7 +54,6 @@ a:hover {
 
 .index .events {
    border: 1px solid #c40F70;
-   width: 248px;
    float: right;
 }
 
@@ -88,7 +86,6 @@ a:hover {
 }
 
 .holder footer {
-    height: 204px; 
     width:100%;
     position: absolute;
     bottom: 0; 
@@ -112,3 +109,49 @@ a:hover {
 .holder footer .news a:hover {
    text-decoration: underline;
 }
+
+@media only screen and (orientation : portrait) {
+   .index .span7 {
+      width: 700px;
+      margin-left: 40px;
+      margin-top: 30px;
+   }
+
+   .index .span3 {
+      width: auto;
+   }
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+   .navbar {
+      width: 724px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
+   }
+
+   .sidebar li a {
+      font-size: 16px;
+   }
+
+   .index .span7 {
+      width: 470px;
+      margin-left: 70px;
+   }
+
+   .index .span3 {
+      width: auto;
+   }
+
+   .index .span3 .event {
+      padding-bottom: 10px;
+   }
+
+   .index .span3 .event a,
+   .index .span3 .event p {
+     display: inline;
+   }
+
+  
+}
+

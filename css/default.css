@@ -111,7 +111,7 @@ a:hover {
    text-decoration: underline;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1290px) {
    .index .span7 {
       width: 670px;
       margin-left: 60px;

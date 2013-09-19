@@ -62,13 +62,13 @@ span {
    color: #555;
 }
 
-.index .events {
+.index .notification {
    border: 1px solid #bb3a77;
    float: right;
    background-color: #fff;
 }
 
-.index .events h2 {
+.index .notification h2 {
    font-size: 18px;
    font-family: 'Milonga', cursive;
    background-color: #c60e72;
@@ -78,18 +78,18 @@ span {
    margin: 0;
 }
 
-.index .event {
+.index .notification .event {
    border-bottom: 1px solid #cacaca;
    margin-top: 10px;
 }
 
-.index .event a,
-.index .event p {
+.index .notification .event a,
+.index .notification .event p {
    margin-left: 5px;
    margin-right: 5px;
 }
 
-.index .events p.view-all {
+.index .notification p.view-all {
    font-family: 'Milonga', cursive;
    font-size: 16px;
    text-align: center;

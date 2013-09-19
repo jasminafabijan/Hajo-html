@@ -21,11 +21,17 @@ html, body {
 }
 
 a {
-   color: #c40F70;
+   color: #c60e72;
 }
 
 a:hover {
    text-decoration: none;
+   color: #555;
+}
+
+p,
+span {
+   font-family: Arial, Helvetica, sans-serif;
    color: #555;
 }
 
@@ -52,8 +58,12 @@ a:hover {
    font-size: 18px;
 }
 
+.sidebar li a.active {
+   color: #555;
+}
+
 .index .events {
-   border: 1px solid #c40F70;
+   border: 1px solid #bb3a77;
    float: right;
    background-color: #fff;
 }
@@ -61,7 +71,7 @@ a:hover {
 .index .events h2 {
    font-size: 18px;
    font-family: 'Milonga', cursive;
-   background-color: #c40F70;
+   background-color: #c60e72;
    color: #fff;
    text-align: center;
    font-weight: normal;
@@ -93,7 +103,7 @@ a:hover {
 }
 
 .holder footer .news {
-   background-color: #c40F70;
+   background-color: #c60e72;
    padding: 60px 30px 25px 10px;
    position: absolute;
    bottom: 0;
@@ -109,6 +119,47 @@ a:hover {
 
 .holder footer .news a:hover {
    text-decoration: underline;
+}
+
+.about .span10 {
+   margin: 42px 0 30px 20px;
+}
+
+.about .span10 img {
+   float: left;
+   margin: 0 20px 10px 0;
+}
+
+.about .span10 span {
+   margin-bottom: 20px;
+}
+
+.about .span4 {
+   margin-bottom: 20px;
+}
+
+.about .musician {
+   margin-left: 0;
+}
+
+.about .name {
+   margin-top: 50px;
+}
+
+.about .inside {
+   margin-left: 0;
+}
+
+.about footer {
+   background-color: #c60e72;
+   text-align: center;
+   padding: 10px 20px;
+   margin-top: 20px;
+}
+
+.about footer span {
+   color: #fff;
+   margin-right: 20px;
 }
 
 @media (min-width: 1290px) {
@@ -127,6 +178,12 @@ a:hover {
 
    .index .span3 {
       width: auto;
+   }
+}
+
+@media (max-width: 979px) {
+    .about footer span.last {
+      display: block;
    }
 }
 
@@ -159,11 +216,24 @@ a:hover {
    .index .span3 .event p {
      display: inline;
    }
+
+   .about .span10 img {
+      width: 300px;
+   }
+
+   .about .inside {
+      margin-bottom: 10px;
+   }
+
+   .about .name {
+      margin-top: 10px;
+      height: 110px;
+   }
 }
 
 @media (max-width: 767px) {
    .navbar {
-      padding: 0 20px 0 10px;
+      padding: 0 20px 0 20px;
    }
 
    .sidebar ul {
@@ -190,6 +260,45 @@ a:hover {
    .index .span3 .event p {
      display: inline;
    }
+
+   .about .span10 {
+      margin-left: 0;
+   }
+
+   .about .inside .span2 {
+      width: 50%;
+   }
+
+   .about .inside .musician {
+      text-align: center;
+   }
+
+   .about .span2 img {
+      width: 160px;
+   }
+
+   .about .name {
+      margin-top: -100px;
+      float: right;
+   }
+
+   .about footer {
+      margin: 20px -20px 0 -20px;
+   }
+}
+
+@media (max-width: 690px) {
+   .about .span10 img {
+      float: none;
+      display: block;
+      margin: 0 auto 10px;
+   }
+}
+
+@media (max-width: 588px) {
+   .about footer span {
+      display: block;
+   }
 }
 
 @media (max-width: 480px) {
@@ -213,5 +322,10 @@ a:hover {
    .holder footer .news a {
       font-size: 14px;
    }
+
+   .about .name p {
+      margin-left: 10px;
+   }
+
 }
 

@@ -51,6 +51,7 @@ span {
    box-shadow: -1px -1px 5px #a1a1a1;
    padding: 5px 0;
    text-align: center;
+   width: 85%;
 }
 
 .sidebar li a {
@@ -237,6 +238,10 @@ span {
     .about footer span.last,
     .events footer span.last {
       display: block;
+   }
+
+   .sidebar li {
+      width: 100%;
    }
 }
 

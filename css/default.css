@@ -201,10 +201,19 @@ span {
 
 .events .span7 a {
    color: #3b5998;
+   margin-left: 10px;
 }
 
 .events .span7 a:hover {
    text-decoration: underline;
+}
+
+.events .span7 a img {
+   margin-top: -12px;
+}
+
+.events .span7 .fb-like {
+   margin: 6px 0 0 10px;
 }
 
 .events .span3 img {

@@ -208,6 +208,12 @@ span {
    text-decoration: underline;
 }
 
+.events .span7 p.share {
+   width: 130px;
+   float: left;
+   margin-top: 6px;
+}
+
 .events .span7 a img {
    margin-top: -12px;
 }
@@ -218,6 +224,10 @@ span {
 
 .events .span3 img {
    margin-top: 12px;
+}
+
+.events footer {
+   bottom: 0px;
 }
 
 @media (min-width: 1290px) {

@@ -149,8 +149,12 @@ span {
    margin-left: 0;
 }
 
-.about .name {
+.about .info {
    margin-top: 50px;
+}
+
+.about .info p.name {
+   font-size: 15px;
 }
 
 .about .inside {
@@ -308,7 +312,7 @@ span {
       margin-bottom: 10px;
    }
 
-   .about .name {
+   .about .info {
       margin-top: 10px;
       height: 110px;
    }
@@ -360,7 +364,7 @@ span {
       width: 160px;
    }
 
-   .about .name {
+   .about .info {
       margin-top: -100px;
       float: right;
    }
@@ -416,7 +420,7 @@ span {
       font-size: 14px;
    }
 
-   .about .name p {
+   .about .info p {
       margin-left: 10px;
    }
 

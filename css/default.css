@@ -36,7 +36,8 @@ a:hover {
 }
 
 p,
-span {
+span,
+label {
    font-family: Arial, Helvetica, sans-serif;
    color: #555;
 }
@@ -67,6 +68,38 @@ span {
 
 .sidebar li a.active {
    color: #555;
+}
+
+.btn {
+   background-color: #c60e72;
+   color: #fff;
+   background-image: none;
+   padding: 5px 20px;
+   text-shadow: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   letter-spacing: 1px;
+   -moz-box-shadow: -1px 1px 5px 0px #a1a1a1;
+   -webkit-box-shadow: -1px 1px 5px 0px #a1a1a1;
+   box-shadow: -1px 1px 5px 0px #a1a1a1;
+   border: none;
+   border-bottom-color: none;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+}
+
+.btn:hover {
+   color: #fff;
+   background-color: #c60e72;
+   opacity: 0.9;
+}
+
+input[type="text"],
+textarea {
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
 }
 
 .index .notification {
@@ -227,6 +260,46 @@ span {
 
 .events .span3 img {
    margin-top: 12px;
+}
+
+.contact .span7 {
+   margin-top: 45px;
+   font-size: 18px;
+}
+
+.contact .span7 strong {
+   color: #c60e72;
+   font-weight: normal;
+}
+
+.contact .span7 ul {
+   list-style-type: none;
+   color: #555;
+   margin: 0 0 20px 50px;
+}
+
+.contact .span7 .data {
+   margin: 0 0 20px 40px;
+}
+
+.contact .span7 form {
+   margin: 30px 0 10px 0;
+}
+
+.contact .span7 form .span3 {
+   margin-left: 0;
+}
+
+.contact .span7 form textarea {
+   height: 85px;
+}
+
+.contact .span7 .btn {
+   float: right;
+}
+
+.contact .fb-like-box {
+   margin-top: 45px;
 }
 
 footer {

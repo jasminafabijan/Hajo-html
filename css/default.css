@@ -128,6 +128,13 @@ span {
    text-decoration: underline;
 }
 
+.events .wrap,
+.contact .wrap {
+   min-height: 100%;
+   height: 100%;
+   margin: 0 auto 0;
+}
+
 .about .span10 {
    margin: 42px 0 30px 20px;
 }
@@ -159,26 +166,6 @@ span {
 
 .about .inside {
    margin-left: 0;
-}
-
-.about footer, 
-.events footer {
-   background-color: #c60e72;
-   text-align: center;
-   padding: 10px 20px;
-   margin-top: 20px;
-}
-
-.about footer span,
-.events footer span {
-   color: #fff;
-   margin-right: 20px;
-}
-
-.events .wrap {
-   min-height: 100%;
-   height: 100%;
-   margin: 0 auto 0;
 }
 
 .events .span10 {
@@ -242,8 +229,17 @@ span {
    margin-top: 12px;
 }
 
-.events footer {
-   bottom: 0px;
+footer {
+   background-color: #c60e72;
+   text-align: center;
+   padding: 10px 20px;
+   margin-top: 20px;
+   bottom: 0;
+}
+
+footer span {
+   color: #fff;
+   margin-right: 20px;
 }
 
 @media (min-width: 1290px) {
@@ -270,8 +266,7 @@ span {
       padding-left: 5px;
    }
 
-    .about footer span.last,
-    .events footer span.last {
+    footer span.last {
       display: block;
    }
 
@@ -375,8 +370,7 @@ span {
       float: right;
    }
 
-   .about footer,
-   .events footer {
+   footer {
       margin: 20px -20px 0 -20px;
    }
 
@@ -398,8 +392,7 @@ span {
 }
 
 @media (max-width: 588px) {
-   .about footer span,
-   .events footer span {
+   footer span {
       display: block;
    }
 }

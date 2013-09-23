@@ -103,13 +103,13 @@ span {
    margin-top: 10px;
 }
 
-.holder footer {
+.holder .footer {
     width:100%;
     position: absolute;
     bottom: 0; 
 }
 
-.holder footer .news {
+.holder .footer .news {
    background-color: #c60e72;
    padding: 60px 30px 25px 10px;
    position: absolute;
@@ -118,13 +118,13 @@ span {
    text-align: center;
 } 
 
-.holder footer .news a {
+.holder .footer .news a {
    font-family: 'Milonga', cursive;
    color: #fff;
    font-size: 16px;
 }
 
-.holder footer .news a:hover {
+.holder .footer .news a:hover {
    text-decoration: underline;
 }
 
@@ -333,11 +333,11 @@ span {
       margin-top: 0;
    }
 
-   .holder footer {
+   .holder .footer {
       position: relative;
    }
 
-   .holder footer .news {
+   .holder .footer .news {
       margin-left: -20px;
    }
 
@@ -418,11 +418,11 @@ span {
      display: block;
    }
 
-   .holder footer .news {
+   .holder .footer .news {
       padding: 50px 20px 20px 10px;
 } 
 
-   .holder footer .news a {
+   .holder .footer .news a {
       font-size: 14px;
    }
 

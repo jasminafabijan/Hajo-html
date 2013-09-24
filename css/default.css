@@ -175,7 +175,7 @@ textarea {
 }
 
 .about .span4 {
-   margin-bottom: 20px;
+   margin-bottom: 30px;
 }
 
 .about .musician {
@@ -191,11 +191,11 @@ textarea {
 }
 
 .about .inside {
-   margin-left: 0;
+   margin: 0 0 20px 0;
 }
 
 .about footer {
-   margin-top: 30px;
+   margin-top: 20px;
 }
 
 .events .span10 {
@@ -475,7 +475,8 @@ footer span {
      display: inline;
    }
 
-   .about .span10 {
+   .about .span10,
+   .contact .span7 {
       margin-left: 0;
    }
 
@@ -515,6 +516,10 @@ footer span {
 
    .events .span3 img {
       max-width: 250px;
+   }
+
+   .contact .fb-like-box {
+      margin: 0 0 20px 0;
    }
 }
 

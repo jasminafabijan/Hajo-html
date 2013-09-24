@@ -194,6 +194,10 @@ textarea {
    margin-left: 0;
 }
 
+.about footer {
+   margin-top: 30px;
+}
+
 .events .span10 {
    margin: 30px 0 0 20px;
    border-bottom: 1px solid #d7d7d7;
@@ -206,6 +210,7 @@ textarea {
 
 .events .span10:last-child {
    border-bottom: none;
+   margin-bottom: 70px;
 }
 
 .events .span10 .span7 {
@@ -256,7 +261,7 @@ textarea {
 }
 
 .contact .span7 {
-   margin-top: 45px;
+   margin: 45px 0 100px 20px;
    font-size: 18px;
 }
 
@@ -297,8 +302,10 @@ textarea {
 
 /* responsive fb like box */
 
-.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
-width: 100% !important;
+.contact .fb_iframe_widget, 
+.contact .fb_iframe_widget span, 
+.contact .fb_iframe_widget span iframe[style] {
+   width: 100% !important;
 }
  
 .embed-container {
@@ -329,15 +336,17 @@ height: 100%;
 }
 
 .push {
-   height: 50px;
+   height: 40px;
 }
 
 footer {
    background-color: #c60e72;
    text-align: center;
-   padding: 10px 20px;
-   margin-top: 20px;
-   height: 20px;
+   height: 40px;
+}
+
+footer p {
+   margin-top: 10px;
 }
 
 footer span {
@@ -375,6 +384,16 @@ footer span {
 
    .sidebar li {
       width: 100%;
+   }
+
+   .events .wrap,
+   .contact .wrap {
+      margin-bottom:  -60px;
+   }
+
+   .push,
+   footer {
+      height: 60px;
    }
 }
 
@@ -497,6 +516,16 @@ footer span {
 @media (max-width: 588px) {
    footer span {
       display: block;
+   }
+
+   .events .wrap,
+   .contact .wrap {
+      margin-bottom:  -100px;
+   }
+
+   .push,
+   footer {
+      height: 100px;
    }
 }
 

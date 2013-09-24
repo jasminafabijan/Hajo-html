@@ -439,6 +439,10 @@ footer span {
       margin-top: 10px;
       height: 110px;
    }
+
+   .events .span7 a {
+      margin-left: 0;
+   }
 }
 
 @media (max-width: 767px) {
@@ -498,6 +502,15 @@ footer span {
 
    .events .span10 {
       margin-left: 0;
+      float: left;
+   }
+
+   .events .span10:last-child {
+      margin-bottom: 40px;
+   }
+
+   .events .span3 {
+      float: left;
    }
 
    .events .span3 img {
@@ -553,6 +566,10 @@ footer span {
 
    .about .info p {
       margin-left: 10px;
+   }
+
+   .events .span7 a {
+      margin-left: 0;
    }
 
 }

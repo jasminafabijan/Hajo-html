@@ -217,7 +217,9 @@ textarea {
    margin-left: 0;
 }
 
-.events .span7 h1 {
+.events .span7 h1,
+.gallery h1,
+.gallery .album p {
    font-size: 18px;
    font-family: 'Milonga', cursive;
    color: #c60e72;
@@ -300,6 +302,64 @@ textarea {
    margin-top: 45px;
 }
 
+.gallery .span7 {
+   margin: 50px 0 0 20px;
+}
+
+.gallery .span7 .album {
+   clear: both;
+   content: "";
+   display: table;
+   margin-bottom: 40px;
+}
+
+.gallery .span7 .span2 {
+   width: 178px;
+   margin: 0 0 2px 2px;
+}
+
+.gallery .span7 .title {
+   height: 176px;
+   width: 176px;
+   border: 1px solid #cacaca;
+   text-align: center;
+}
+
+.gallery .span7 .title h1 {
+   margin-top: 60px;
+}
+
+.gallery .span7 img {
+   height: 178px;
+}
+
+.gallery .album p {
+   text-align: center;
+   margin-top: 370px;
+}
+
+.gallery .span3 {
+   margin-top: 50px;
+}
+
+.gallery .span3 .title {
+   border: 1px solid #cacaca;
+   text-align: center;
+}
+
+.gallery iframe.span3 {
+   margin: 10px 0 6px 0;
+   height: 170px;
+}
+
+.gallery .span3 p {
+   color: #c60e72;
+}
+
+.gallery footer {
+   margin-top: 50px;
+}
+
 /* responsive fb like box */
 
 .contact .fb_iframe_widget, 
@@ -326,7 +386,7 @@ height: 100%;
 }
 /* end of facebook responsive */
 
-
+/* sticky footer */
 .events .wrap,
 .contact .wrap {
    min-height: 100%;
@@ -354,10 +414,35 @@ footer span {
    margin-right: 20px;
 }
 
+/* end of sticky footer */
+
 @media (min-width: 1290px) {
    .index .span7 {
       width: 670px;
       margin-left: 60px;
+   }
+}
+
+@media (min-width: 1200px) {
+   .gallery .span7 .span2 {
+      width: 200px;
+   }
+
+   .gallery .span7 .title {
+      height: 198px;
+      width: 198px;
+   }
+
+   .gallery .span7 .title h1 {
+      margin-top: 80px;
+   }
+
+   .gallery .span7 img {
+      height: 200px;
+   }
+
+   .gallery .album p {
+      margin-top: 415px;
    }
 }
 
@@ -443,6 +528,27 @@ footer span {
    .events .span7 a {
       margin-left: 0;
    }
+
+   .gallery .span7 .span2 {
+      width: 136px;
+   }
+
+   .gallery .span7 .title {
+      height: 134px;
+      width: 134px;
+   }
+
+   .gallery .span7 .title h1 {
+      margin-top: 50px;
+   }
+
+   .gallery .span7 img {
+      height: 136px;
+   }
+
+   .gallery .album p {
+      margin-top: 290px;
+   }
 }
 
 @media (max-width: 767px) {
@@ -476,7 +582,8 @@ footer span {
    }
 
    .about .span10,
-   .contact .span7 {
+   .contact .span7,
+   .gallery .span7 {
       margin-left: 0;
    }
 
@@ -521,6 +628,20 @@ footer span {
    .contact .fb-like-box {
       margin: 0 0 20px 0;
    }
+
+   .gallery .span7 .span2 {
+      float: left;
+      width: 32%;
+   }
+
+   .gallery .span7 .title {
+      width: 32%;
+      height: 178px;
+   }
+
+   .gallery .span3 p {
+      margin-bottom: 20px;
+   }
 }
 
 @media (max-width: 690px) {
@@ -544,6 +665,19 @@ footer span {
    .push,
    footer {
       height: 100px;
+   }
+
+   .gallery .span7 .title,
+   .gallery .span7 .span2 img {
+      height: 150px;
+   }
+
+   .gallery .span7 .title h1 {
+      margin-top: 50px;
+   }
+
+   .gallery .album p {
+     margin-top: 320px;
    }
 }
 
@@ -575,6 +709,19 @@ footer span {
 
    .events .span7 a {
       margin-left: 0;
+   }
+
+   .gallery .span7 .title,
+   .gallery .span7 .span2 img {
+      height: 130px;
+   }
+
+   .gallery .span7 .title h1 {
+      margin-top: 40px;
+   }
+
+   .gallery .album p {
+     margin-top: 277px;
    }
 
 }

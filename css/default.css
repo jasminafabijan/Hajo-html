@@ -182,7 +182,8 @@ textarea {
    margin-left: 0;
 }
 
-.about .info {
+.about .info,
+.discography .span5 {
    margin-top: 50px;
 }
 
@@ -219,7 +220,8 @@ textarea {
 
 .events .span7 h1,
 .gallery h1,
-.gallery .album p {
+.gallery .album p,
+.discography .span5 h1 {
    font-size: 18px;
    font-family: 'Milonga', cursive;
    color: #c60e72;
@@ -267,7 +269,8 @@ textarea {
    font-size: 18px;
 }
 
-.contact .span7 strong {
+.contact .span7 strong,
+.discography .span5 strong {
    color: #c60e72;
    font-weight: normal;
 }
@@ -360,6 +363,78 @@ textarea {
    margin-top: 50px;
 }
 
+.discography .span5 p {
+   font-size: 16px;
+   margin-bottom: 20px;
+} 
+
+.discography .titles {
+   margin-top: 40px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.discography .titles p.title {
+   color: #c60e72;
+   margin-bottom: 0;
+}
+
+.discography .titles p.names {
+   margin-bottom: 10px;
+}
+
+.discography .indent,
+.discography .message {
+   border: 1px solid #e1e1e1;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   padding: 30px 0;
+   margin-bottom: 60px;
+}
+
+.discography .indent .span8 {
+   margin-left: 80px;
+}
+
+.discography .indent form {
+   margin-top: 30px;
+}
+
+.discography .indent form .left {
+  margin-left: 0;
+}
+
+.discography .indent form .uneditable-input {
+   text-align: right;
+   color: #000;
+}
+
+.discography .indent .span7 {
+   text-align: right;
+   margin-top: 10px;
+}
+
+.discography .indent .span7 .sum {
+   font-size: 16px;
+   font-weight: bold;
+   margin-left: 30px;
+}
+
+.discography .indent .span7 .btn {
+   float: right;
+}
+
+.discography .message {
+   border: 1px solid #c60e72;
+   padding: 15px 0;
+}
+
+.discography .message p {
+   margin: 15px 30px;
+   font-size: 18px;
+}
+
 /* responsive fb like box */
 
 .contact .fb_iframe_widget, 
@@ -387,8 +462,7 @@ height: 100%;
 /* end of facebook responsive */
 
 /* sticky footer */
-.events .wrap,
-.contact .wrap {
+.wrap {
    min-height: 100%;
    height: auto !important;
    height: 100%;
@@ -444,6 +518,10 @@ footer span {
    .gallery .album p {
       margin-top: 415px;
    }
+
+   .discography .indent .span8 {
+      margin-left: 90px;
+   }
 }
 
 @media only screen and (orientation : portrait) and (min-width: 767px) {
@@ -471,8 +549,7 @@ footer span {
       width: 100%;
    }
 
-   .events .wrap,
-   .contact .wrap {
+   .wrap {
       margin-bottom:  -60px;
    }
 
@@ -642,6 +719,21 @@ footer span {
    .gallery .span3 p {
       margin-bottom: 20px;
    }
+
+   .discography .titles p {
+      display: inline;
+      margin-right: 10px;
+      line-height: 25px;
+   }
+
+   .discography .indent .span8 {
+      width: 90%;
+      margin-left: 5%;
+   }
+
+   .discography .span10 {
+      float: left;
+   }
 }
 
 @media (max-width: 690px) {
@@ -657,8 +749,7 @@ footer span {
       display: block;
    }
 
-   .events .wrap,
-   .contact .wrap {
+   .wrap {
       margin-bottom:  -100px;
    }
 
